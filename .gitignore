@@ -1,7 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 .husky
-
 # dependencies
 /node_modules
 /.pnp
@@ -30,9 +29,10 @@ yarn.lock
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+yarn.lock
 
 # env files (can opt-in for committing if needed)
-.env*
+.env
 
 # vercel
 .vercel
