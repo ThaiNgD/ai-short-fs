@@ -27,7 +27,7 @@ const Provider = ({
   };
   useEffect(() => {
     if (user) isNewUser();
-  }, [user]);
+  }, [user, isNewUser]);
   return <div>{children}</div>;
 };
 
